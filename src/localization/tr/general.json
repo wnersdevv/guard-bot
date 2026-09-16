@@ -1,0 +1,8 @@
+{
+  "general.help.title": "WnersGuard Komutları",
+  "general.help.intro": "WNERSDEV tarafından geliştirilen WnersGuard, sunucunuzu koruyan modüler bir güvenlik platformudur.",
+  "general.help.section.security": "🛡️ Güvenlik",
+  "general.help.section.moderation": "🔨 Moderasyon",
+  "general.help.section.settings": "⚙️ Ayarlar",
+  "general.help.footer": "Detaylı yardım için bir komutu Discord'da yazarken açıklamasını görebilirsiniz."
+}

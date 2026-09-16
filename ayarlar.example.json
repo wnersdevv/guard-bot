@@ -1,0 +1,8 @@
+{
+  "DISCORD_TOKEN": "",
+  "CLIENT_ID": "",
+  "MONGODB_URI": "",
+  "REDIS_URL": "",
+  "NODE_ENV": "development",
+  "LOG_LEVEL": "info"
+}

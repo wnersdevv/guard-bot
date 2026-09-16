@@ -1,0 +1,24 @@
+# Local integration-testing harness — NOT for production deployment.
+# Brings up MongoDB and Redis so the test suite can exercise the real
+# Redis-backed rate limiter / dedupe path (RedisRateLimiter, AuditEngine's
+# Redis branch) instead of only the in-memory fallback that runs in CI
+# without these services.
+#
+# Usage:
+#   docker compose up -d
+#   REDIS_URL=redis://localhost:6379 MONGODB_URI=mongodb://localhost:27017/wnersguard-test npm test
+services:
+  mongo:
+    image: mongo:7
+    ports:
+      - "27017:27017"
+    volumes:
+      - wnersguard-mongo-data:/data/db
+
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6379:6379"
+
+volumes:
+  wnersguard-mongo-data:

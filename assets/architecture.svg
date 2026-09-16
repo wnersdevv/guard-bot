@@ -1,0 +1,102 @@
+<svg width="1160" height="760" viewBox="0 0 1160 760" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#5a5f7a"/>
+    </marker>
+    <linearGradient id="cardTop" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#232538"/>
+      <stop offset="100%" stop-color="#1b1c2a"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1160" height="760" fill="#0f1016"/>
+
+  <!-- Discord layer -->
+  <rect x="380" y="24" width="400" height="64" rx="12" fill="#5865f2" opacity="0.15" stroke="#5865f2"/>
+  <text x="580" y="50" text-anchor="middle" fill="#c7cbf5" font-size="16" font-weight="700">Discord Gateway</text>
+  <text x="580" y="72" text-anchor="middle" fill="#8b90ad" font-size="12">slash commands · buttons · select menus · modals · events</text>
+  <line x1="580" y1="88" x2="580" y2="118" stroke="#5a5f7a" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- Core engine layer -->
+  <rect x="230" y="118" width="700" height="92" rx="14" fill="url(#cardTop)" stroke="#3a3d55"/>
+  <text x="580" y="146" text-anchor="middle" fill="#ffffff" font-size="17" font-weight="700">WnersGuard Core</text>
+  <g font-size="13" fill="#c7cbf5">
+    <rect x="255" y="160" width="150" height="34" rx="8" fill="#20223a" stroke="#3a3d55"/>
+    <text x="330" y="182" text-anchor="middle">🧠 ThreatEngine</text>
+    <rect x="425" y="160" width="160" height="34" rx="8" fill="#20223a" stroke="#3a3d55"/>
+    <text x="505" y="182" text-anchor="middle">⚡ ResponseEngine</text>
+    <rect x="605" y="160" width="150" height="34" rx="8" fill="#20223a" stroke="#3a3d55"/>
+    <text x="680" y="182" text-anchor="middle">📋 AuditEngine</text>
+    <rect x="775" y="160" width="130" height="34" rx="8" fill="#20223a" stroke="#3a3d55"/>
+    <text x="840" y="182" text-anchor="middle">🚌 EventBus</text>
+  </g>
+  <line x1="580" y1="210" x2="580" y2="240" stroke="#5a5f7a" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- Modules layer -->
+  <text x="580" y="262" text-anchor="middle" fill="#9aa0ac" font-size="13" letter-spacing="1">PROTECTION MODULES</text>
+
+  <g font-size="12.5" fill="#e8e9f3">
+    <!-- row 1 -->
+    <rect x="40"  y="278" width="150" height="52" rx="10" fill="#1a1c2a" stroke="#333650"/>
+    <text x="115" y="309" text-anchor="middle">💥 Anti-Nuke</text>
+    <rect x="205" y="278" width="150" height="52" rx="10" fill="#1a1c2a" stroke="#333650"/>
+    <text x="280" y="309" text-anchor="middle">🚨 Anti-Raid</text>
+    <rect x="370" y="278" width="150" height="52" rx="10" fill="#1a1c2a" stroke="#333650"/>
+    <text x="445" y="309" text-anchor="middle">🚫 Anti-Spam</text>
+    <rect x="535" y="278" width="150" height="52" rx="10" fill="#1a1c2a" stroke="#333650"/>
+    <text x="610" y="309" text-anchor="middle">📢 Anti-Mention</text>
+    <rect x="700" y="278" width="150" height="52" rx="10" fill="#1a1c2a" stroke="#333650"/>
+    <text x="775" y="309" text-anchor="middle">🔗 Anti-Webhook</text>
+    <rect x="865" y="278" width="150" height="52" rx="10" fill="#1a1c2a" stroke="#333650"/>
+    <text x="940" y="309" text-anchor="middle">🤖 Anti-Bot</text>
+
+    <!-- row 2 -->
+    <rect x="205" y="342" width="150" height="52" rx="10" fill="#1a1c2a" stroke="#333650"/>
+    <text x="280" y="373" text-anchor="middle">🔒 Role Protection</text>
+    <rect x="370" y="342" width="150" height="52" rx="10" fill="#1a1c2a" stroke="#333650"/>
+    <text x="445" y="373" text-anchor="middle">📁 Channel Protection</text>
+    <rect x="535" y="342" width="150" height="52" rx="10" fill="#1a1c2a" stroke="#333650"/>
+    <text x="610" y="373" text-anchor="middle">🌐 Server Protection</text>
+    <rect x="700" y="342" width="150" height="52" rx="10" fill="#1a1c2a" stroke="#333650"/>
+    <text x="775" y="366" text-anchor="middle">🧯 Auto-Protection</text>
+    <text x="775" y="381" text-anchor="middle" font-size="10.5" fill="#9aa0ac">(Emergency Mode)</text>
+  </g>
+
+  <line x1="580" y1="394" x2="580" y2="424" stroke="#5a5f7a" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- Services layer -->
+  <text x="580" y="446" text-anchor="middle" fill="#9aa0ac" font-size="13" letter-spacing="1">SERVICES &amp; MIDDLEWARE</text>
+  <g font-size="12.5" fill="#e8e9f3">
+    <rect x="120" y="462" width="150" height="46" rx="10" fill="#1a1c2a" stroke="#333650"/>
+    <text x="195" y="490" text-anchor="middle">✅ Whitelist</text>
+    <rect x="285" y="462" width="150" height="46" rx="10" fill="#1a1c2a" stroke="#333650"/>
+    <text x="360" y="490" text-anchor="middle">💾 Backup</text>
+    <rect x="450" y="462" width="150" height="46" rx="10" fill="#1a1c2a" stroke="#333650"/>
+    <text x="525" y="490" text-anchor="middle">🔨 Moderation</text>
+    <rect x="615" y="462" width="150" height="46" rx="10" fill="#1a1c2a" stroke="#333650"/>
+    <text x="690" y="490" text-anchor="middle">🌍 Language</text>
+    <rect x="780" y="462" width="150" height="46" rx="10" fill="#1a1c2a" stroke="#333650"/>
+    <text x="855" y="482" text-anchor="middle">🧯 Emergency /</text>
+    <text x="855" y="497" text-anchor="middle" font-size="10.5" fill="#9aa0ac">Module Guards</text>
+  </g>
+
+  <line x1="580" y1="508" x2="580" y2="538" stroke="#5a5f7a" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- Storage layer -->
+  <text x="580" y="560" text-anchor="middle" fill="#9aa0ac" font-size="13" letter-spacing="1">STORAGE</text>
+
+  <rect x="330" y="576" width="230" height="84" rx="14" fill="#20342a" stroke="#3f6b52"/>
+  <text x="445" y="608" text-anchor="middle" fill="#8fe3a3" font-size="16" font-weight="700">🍃 MongoDB</text>
+  <text x="445" y="630" text-anchor="middle" fill="#a9c9b8" font-size="11.5">Guilds · Events · Punishments</text>
+  <text x="445" y="646" text-anchor="middle" fill="#a9c9b8" font-size="11.5">Whitelist · Backups · Users</text>
+
+  <rect x="600" y="576" width="230" height="84" rx="14" fill="#33253f" stroke="#6b4a7f"/>
+  <text x="715" y="608" text-anchor="middle" fill="#e3a3f0" font-size="16" font-weight="700">⚡ Redis</text>
+  <text x="715" y="630" text-anchor="middle" fill="#cbb0d6" font-size="11.5">Rate limiting · Dedupe</text>
+  <text x="715" y="646" text-anchor="middle" fill="#cbb0d6" font-size="11.5">optional — multi-instance only</text>
+
+  <text x="580" y="700" text-anchor="middle" fill="#5a5f7a" font-size="12">
+    ayarlar.json (config) is read once at boot by every layer above — no .env, ever.
+  </text>
+  <text x="580" y="726" text-anchor="middle" fill="#3f4258" font-size="11">WNERSDEV • WnersGuard</text>
+</svg>

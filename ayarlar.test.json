@@ -1,0 +1,8 @@
+{
+  "DISCORD_TOKEN": "test-token",
+  "CLIENT_ID": "000000000000000000",
+  "MONGODB_URI": "mongodb://localhost:27017/wnersguard-test",
+  "REDIS_URL": "",
+  "NODE_ENV": "test",
+  "LOG_LEVEL": "silent"
+}

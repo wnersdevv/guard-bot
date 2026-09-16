@@ -1,0 +1,8 @@
+{
+  "general.help.title": "Comandos de WnersGuard",
+  "general.help.intro": "WnersGuard, desarrollado por WNERSDEV, es una plataforma de seguridad modular que protege tu servidor.",
+  "general.help.section.security": "🛡️ Seguridad",
+  "general.help.section.moderation": "🔨 Moderación",
+  "general.help.section.settings": "⚙️ Configuración",
+  "general.help.footer": "Para ayuda detallada, Discord muestra la descripción de un comando mientras lo escribes."
+}

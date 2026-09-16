@@ -1,0 +1,39 @@
+{
+  "name": "wnersguard",
+  "version": "1.0.0",
+  "description": "WnersGuard - Next-Generation Discord Security Platform by WNERSDEV",
+  "main": "dist/wnerdev.js",
+  "type": "commonjs",
+  "scripts": {
+    "build": "tsc -p tsconfig.json && npm run copy-locales",
+    "copy-locales": "node -e \"const fs=require('fs');const path=require('path');const src=path.join('src','localization');const dest=path.join('dist','localization');for(const lang of fs.readdirSync(src)){const s=path.join(src,lang);if(!fs.statSync(s).isDirectory())continue;const d=path.join(dest,lang);fs.mkdirSync(d,{recursive:true});for(const f of fs.readdirSync(s)){if(f.endsWith('.json'))fs.copyFileSync(path.join(s,f),path.join(d,f));}}\"",
+    "start": "node dist/wnerdev.js",
+    "dev": "ts-node-dev --respawn --transpile-only src/wnerdev.ts",
+    "deploy-commands": "ts-node src/deployCommands.ts",
+    "lint": "eslint \"src/**/*.ts\"",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "discord.js": "^14.15.3",
+    "mongoose": "^8.5.0",
+    "canvas": "^2.11.2",
+    "zod": "^3.23.8",
+    "pino": "^9.3.2",
+    "pino-pretty": "^11.2.1",
+    "ioredis": "^5.4.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.4",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "@types/node": "^20.14.15",
+    "eslint": "^8.57.0",
+    "@typescript-eslint/parser": "^7.18.0",
+    "@typescript-eslint/eslint-plugin": "^7.18.0",
+    "prettier": "^3.3.3",
+    "vitest": "^2.0.5"
+  },
+  "engines": {
+    "node": ">=18.17.0"
+  }
+}

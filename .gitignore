@@ -1,0 +1,7 @@
+node_modules/
+dist/
+*.log
+
+# Real secrets live only here — never committed. ayarlar.example.json
+# (the template) and ayarlar.test.json (dummy CI values) ARE tracked.
+ayarlar.json
